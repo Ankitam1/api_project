@@ -42,5 +42,5 @@ if company:
             )
             fig = client.get_candlestick_chart(df_stock)
             st.plotly_chart(fig)
-            
 
+# To run this app - in the command prompt give command as - "streamlit run app.py" in the Terminal 
